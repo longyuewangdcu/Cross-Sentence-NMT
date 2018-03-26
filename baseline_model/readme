@@ -1,0 +1,6 @@
+run_shuffle.sh
+run_prepare.sh
+run_train.sh
+run_test.sh
+run_test_mcpus.py, decode with mult-cpus
+
