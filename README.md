@@ -1,7 +1,7 @@
 # Cross-Sentence-NMT v1.0
 Cross Sentence Neural Machine Translation
 
-In this version, we introduce a cross-sentence context-aware approach to investigate the influence of historical contextual information on the performance of NMT. If you use the code, please cite <a href="https://arxiv.org/pdf/1704.04347.pdf">our paper</a>:
+In translation, considering the document as a whole can help to resolve ambiguities and inconsistencies. We propose a cross-sentence context-aware approach to investigate the influence of historical contextual information on the performance of NMT. If you use the code, please cite <a href="http://www.aclweb.org/anthology/D17-1301">our paper</a>:
 
 <pre><code>@InProceedings{Wang:2017:EMNLP,
   author    = {Wang, Longyue and Tu, Zhaopeng and Way, Andy and Liu Qun},
@@ -11,20 +11,7 @@ In this version, we introduce a cross-sentence context-aware approach to investi
 }
 </code></pre>
 
-This package is based on the old version of Nematus by EdinburghNLP (https://github.com/EdinburghNLP/nematus). If you use Nematus, please cite the following paper:
-
-<pre><code>@InProceedings{sennrich-EtAl:2017:EACLDemo,
-  author    = {Sennrich, Rico  and  Firat, Orhan  and  Cho, Kyunghyun  and  Birch, Alexandra  and  Haddow, Barry  and  Hitschler, Julian  and  Junczys-Dowmunt, Marcin  and  L\"{a}ubli, Samuel  and  Miceli Barone, Antonio Valerio  and  Mokry, Jozef  and  Nadejde, Maria},
-  title     = {Nematus: a Toolkit for Neural Machine Translation},
-  booktitle = {Proceedings of the Software Demonstrations of the 15th Conference of the European Chapter of the Association for Computational Linguistics},
-  month     = {April},
-  year      = {2017},
-  address   = {Valencia, Spain},
-  publisher = {Association for Computational Linguistics},
-  pages     = {65--68},
-  url       = {http://aclweb.org/anthology/E17-3017}
-}
-</code></pre>
+This model is based on the a Theano-based RNNSearch (https://github.com/tuzhaopeng/NMT).
 
 For any comments or questions, please  email <a href="mailto:vincentwang0229@gmail.com">Longyue Wang</a> and <a href="mailto:tuzhaopeng@gmail.com">Zhaopeng Tu</a>.
 
