@@ -17,9 +17,9 @@ For any comments or questions, please  email <a href="mailto:vincentwang0229@gma
 Verification
 --------------------------
 
-The cross-sentence NMT models have been implemented in both Nematus (<a href="http://www.aclweb.org/anthology/D17-1301">LC-NMT</a>>) and the new Theano-based RNNSearch (<a href="https://github.com/longyuewangdcu/Cross-Sentence-NMT">Cross-Sentence-NMT</a>>) architectures. 
+The cross-sentence NMT models have been implemented in both Nematus (<a href="http://www.aclweb.org/anthology/D17-1301">LC-NMT</a>) and the new Theano-based RNNSearch (<a href="https://github.com/longyuewangdcu/Cross-Sentence-NMT">Cross-Sentence-NMT</a>>) architectures. 
 
-Some following work has verified the improvement of our model. Please read Learning to Remember Translation History with a Continuous Cache (https://arxiv.org/pdf/1711.09367.pdf) for more comparisons.
+Some following work has verified the improvement of our model. Please read [Learning to Remember Translation History with a Continuous Cache](https://arxiv.org/pdf/1711.09367.pdf) for more comparisons.
 
 How to Run?
 --------------------------
