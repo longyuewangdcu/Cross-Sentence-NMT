@@ -8,8 +8,7 @@ In translation, considering the document as a whole can help to resolve ambiguit
   title     = {Exploiting Cross-Sentence Context for Neural Machine Translation},
   booktitle = {Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},
   year      = {2017},
-}
-</code></pre>
+}</code></pre>
 
 Currently, we only release the final best model ``+Initenc+dec+Gating Auxi'', which combines all the sub-models in the paper. This model is based on the a Theano-based RNNSearch (https://github.com/tuzhaopeng/NMT).
 
@@ -24,31 +23,31 @@ We need to process train/dev/test data to create corresponding history data. Ass
 
 The orignal format of a document in the train file is:
 
-<pre><code>
-And of course , we all share the same adaptive imperatives .
+<pre><code>And of course , we all share the same adaptive imperatives .
 We 're all born . We all bring our children into the world .
 We go through initiation rites .
-We have to deal with the inexorable separation of death , so it shouldn 't surprise us that we all sing , we all dance , we all have art .
-</code></pre>
+We have to deal with the inexorable separation of death , so it shouldn 't surprise us that we all sing , we all dance , we all have art .</code></pre>
 
 We need to create a new file which contains corresponding history sentences for each line in orignal train file. The format should be:
 
-<pre><code>
-NULL####NULL
+<pre><code>NULL####NULL
 NULL####And of course , we all share the same adaptive imperatives .
 And of course , we all share the same adaptive imperatives .####We 're all born . We all bring our children into the world .
-We 're all born . We all bring our children into the world .####We go through initiation rites .
-</code></pre>
+We 're all born . We all bring our children into the world .####We go through initiation rites .</code></pre>
 
 where the delimiter "####" is sentence boundary. Actually, you could DIY your input format by changing stram.py.
 
 2, Training and Testing
 
-2.1 Set the configurations in configurations.py;
+2.1 Set the NMT configurations in configurations.py;
 
 2.2 Run train.sh to start training;
 
 2.3 Run test.sh for decoding.
 
+To-do List
+--------------------------
 
+1, Upload the experimental results on various domains;
 
+2, Adding new models using target-side information.
