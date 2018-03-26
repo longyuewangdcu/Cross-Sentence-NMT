@@ -24,7 +24,7 @@ Some following work has verified the improvement of our model. Please read [Lear
 How to Run?
 --------------------------
 
-1, Pre-processing
+**1, Pre-processing**
 
 We need to process train/dev/test data to create corresponding history data. Assume that the number of history sentence is 2 (hist_len = 2). The example is:
 
@@ -44,7 +44,7 @@ We 're all born . We all bring our children into the world .####We go through in
 
 where the delimiter "####" is sentence boundary. Actually, you could DIY your input format by changing stram.py.
 
-2, Training and Testing
+**2, Training and Testing**
 
 2.0 Run shuffle.py and prepare.py to prepare the training data;
 
@@ -54,7 +54,7 @@ where the delimiter "####" is sentence boundary. Actually, you could DIY your in
 
 2.3 Run test.sh for decoding.
 
-3, To
+**3, To**
 
 To-do List
 --------------------------
