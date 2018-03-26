@@ -46,6 +46,8 @@ where the delimiter "####" is sentence boundary. Actually, you could DIY your in
 
 2, Training and Testing
 
+2.0 Run shuffle.py and prepare.py to prepare the training data;
+
 2.1 Set the NMT configurations in configurations.py;
 
 2.2 Run train.sh to start training;
