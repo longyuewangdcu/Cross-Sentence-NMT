@@ -54,7 +54,9 @@ where the delimiter "####" is sentence boundary. Actually, you could DIY your in
 
 2.3 Run test.sh for decoding.
 
-**3, To**
+**3, Others**
+
+We provide the toydata and baseline system for your quick starting and comparison.
 
 To-do List
 --------------------------
