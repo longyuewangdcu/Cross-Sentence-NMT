@@ -1,7 +1,7 @@
-# LC-NMT
-Larger-Context Neural Machine Translation
+# Cross-Sentence-NMT
+Cross Sentence Neural Machine Translation
 
-Larger-Context NMT v0.1
+Cross-Sentence-NMT v1.0
 ===========================
 
 In this version, we introduce a cross-sentence context-aware approach to investigate the influence of historical contextual information on the performance of NMT. If you use the code, please cite <a href="https://arxiv.org/pdf/1704.04347.pdf">our paper</a>:
