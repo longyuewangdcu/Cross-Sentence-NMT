@@ -10,14 +10,14 @@ In translation, considering the document as a whole can help to resolve ambiguit
   year      = {2017},
 }</code></pre>
 
-Currently, we only release the final best model ``+Initenc+dec+Gating Auxi'', which combines all the sub-models in the paper. This model is based on the a Theano-based RNNSearch (https://github.com/tuzhaopeng/NMT).
+This is an re-implemented version of [LC_NMT](http://www.aclweb.org/anthology/D17-1301). Currently, we only release the final best model ``+Initenc+dec+Gating Auxi'', which combines all the sub-models in the paper. This model is based on the a Theano-based RNNSearch (https://github.com/tuzhaopeng/NMT). 
 
 For any comments or questions, please  email <a href="mailto:vincentwang0229@gmail.com">Longyue Wang</a> and <a href="mailto:tuzhaopeng@gmail.com">Zhaopeng Tu</a>.
 
 Verification
 --------------------------
 
-The cross-sentence NMT models have been implemented in both Nematus (<a href="http://www.aclweb.org/anthology/D17-1301">LC-NMT</a>) and the new Theano-based RNNSearch (<a href="https://github.com/longyuewangdcu/Cross-Sentence-NMT">Cross-Sentence-NMT</a>>) architectures. 
+The cross-sentence NMT models have been implemented in both Nematus (<a href="http://www.aclweb.org/anthology/D17-1301">LC-NMT</a>) and the new Theano-based RNNSearch (<a href="https://github.com/longyuewangdcu/Cross-Sentence-NMT">Cross-Sentence-NMT</a>>) architectures. For both versions, we obtained consistent performance.
 
 Some following work has verified the improvement of our model. Please read [Learning to Remember Translation History with a Continuous Cache](https://arxiv.org/pdf/1711.09367.pdf) for more comparisons.
 
